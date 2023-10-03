@@ -11,7 +11,7 @@ const ExpenseList = () => {
   }]
     return (
     <div>
-        {list.length?(list.map(item=>(<Card item ={item}></Card>) ) ) :null}
+        {list.length?(list.map(item=>(<Card item ={item}></Card>) ) ) : null}
     </div>
   )
 }
