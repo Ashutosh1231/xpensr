@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-modal';
 import './success-modal.css';
 import { Link } from 'react-router-dom';
-import image from '../../assets/Shopping.png'
+import image from '../../assets/OrderPlaced.png'
 const SuccessModal = ( {modalOpen, setModalOpen}) => {
     const customStyles = {
         content: {

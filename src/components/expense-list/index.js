@@ -1,7 +1,7 @@
 import React from 'react'
 import './expenseList.css' 
 import { useSelector } from 'react-redux'
-import logo from '../../assets/Shopping.png';
+import logo from '../../assets/EmptyList.png';
 import Card from './card'
 import { ToastContainer, toast } from 'react-toastify';
 const ExpenseList = () => {
