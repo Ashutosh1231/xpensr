@@ -1,13 +1,13 @@
 import React from 'react';
 import './home.css';
 import TopFold from '../../components/topFold';
-import Card from '../../components/expense-list/card'
+import ExpenseList from '../../components/expense-list';
 
 const Home = () => {
   return (
     <div className='home'> 
       <TopFold />
-      <Card />
+      <ExpenseList />
     </div>
   )
 }
